@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yummy</title>
+<!--  Font Awesome library -->
+  <link rel="stylesheet" href="./css/all.min.css">
+  <!--  bootstrap framework css file -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!--  my style css sheet -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!--  media Query css sheet -->
+  <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+
+ <aside class="position-fixed top-0 start-0 d-flex h-100 z-3 bg-black">
+
+
+  <div class="left-side-outer text-white">
+  <div class="left-side-inner p-4 d-flex flex-column gap-3 justify-content-between h-100">
+
+    <ul class="links list-unstyled p-3  fs-5">
+      <li><a id="searchBtn" href="#" target="_self">Search</a> </li>
+      <li><a id="categoryBtn" href="#" target="_self">Categories</a> </li>
+      <li><a id="areaBtn" href="#" target="_self">Area</a> </li>
+      <li><a id="ingredientBtn" href="#" target="_self">Ingredients</a> </li>
+      <li><a id="contactBtn" href="#" target="_self">Contact Us</a> </li>
+    </ul>
+
+    <div class="contact-link">
+      <ul class="list-unstyled d-flex gap-3" >
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-globe"></i>
+          </a>
+        </li>
+            </ul>
+
+            <p>Copyright Â© 2019 All Rights
+              Reserved.</p>
+    </div>
+
+  </div>
+</div>
+
+
+  <div class="right-side bg-white d-flex flex-column justify-content-between align-items-center">
+<img src="./imgs/logo.png" alt="logo-img">
+<i  id="closeBtn" class="fa-solid fa-bars fs-3 close-btn"></i>
+<div class="right-links">
+  <ul class="list-unstyled">
+    <li>
+      <a href="#">
+        <i class="fa-solid fa-globe"></i>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i class="fa-solid fa-share-nodes"></i>
+      </a>
+    </li>
+
+
+  </ul>
+</div>
+  </div>
+</aside>
+
+
+<main class="bg-dark p-5 main-meal">
+  <div class="container">
+
+    <div class="input-box d-flex justify-content-center flex-wrap gap-3 mb-5">
+      <div class="w-25"> <input id="inputName" type="text" class="form-control" placeholder="Search By Name" autocomplete="off"></div>
+      <div class="w-25">      <div> <input id="inputLetters" type="text" class="form-control flex-fill" placeholder="Search By First Letters" maxlength="1" autocomplete="off"></div>
+    </div>
+    </div>
+
+
+    <div class="row g-5" id="serchContainer">
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</main>
+
+
+
+
+
+
+
+
+
+
+  <!--  jQuery library -->
+  <script src="./js/jquery-3.7.1.min.js"></script>
+  <!--  bootstrap js file -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <!--  my js file script -->
+  <script src="./js/search.js"></script>
+</body>
+</html>

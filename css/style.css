@@ -1,0 +1,157 @@
+* , *::before , *::after{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+span , a{
+    display: inline-block;
+}
+
+
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+.right-side img{
+
+width: 60px;
+
+}
+
+.close-btn{
+    cursor: pointer;
+}
+
+
+
+/*  index page */
+
+main{
+    min-height: 100vh;
+    color: white;
+}
+
+
+.main-meal .first-inner{
+    cursor: pointer;
+}
+
+.main-meal .first-inner .over-lay{
+    position: absolute;
+    left: 0;
+    bottom: -500px;
+    transition: all 350ms;
+    background-color:#f9f6f6ca;
+}
+
+.main-meal .first-inner:hover .over-lay{
+    bottom: 0px;
+}
+
+.left-side-outer{
+    white-space: nowrap;
+    display: none;
+}
+
+
+ul.links li{
+    display: none;
+   margin-bottom: 25px;
+}
+
+
+.area-box .inner , .ingred-row .inner{
+    cursor: pointer;
+}
+
+
+.ingre-p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+   -webkit-line-clamp: 3;
+   line-clamp: 3;
+    overflow: hidden;
+}
+
+
+
+
+.loading{
+    z-index: 9999;
+    position: fixed;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body.index{
+    overflow: hidden;
+}
+
+.lds-facebook {
+    
+    color: red;
+  }
+
+.lds-facebook,
+.lds-facebook div {
+  box-sizing: border-box;
+}
+.lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: currentColor;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0s;
+}
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+  50%, 100% {
+    top: 24px;
+    height: 32px;
+  }
+}
+
+body.category{
+    overflow: hidden;
+}
+
+
+body.ingredient{
+    overflow: hidden;
+}
+
+body.area{
+    overflow: hidden;
+}
